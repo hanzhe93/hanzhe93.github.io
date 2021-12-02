@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-02T16:35:46.660Z</updated>
+    <updated>2021-12-02T16:47:33.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -11,9 +11,9 @@
     <icon>https://hanzhe93.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zhe Han</rights>
     <entry>
-        <title type="html"><![CDATA[> 欢迎来到我的小站呀，很高兴遇见你！🤝]]></title>
-        <id>https://hanzhe93.github.io/post/greater-huan-ying-lai-dao-wo-de-xiao-zhan-ya-hen-gao-xing-yu-jian-ni/</id>
-        <link href="https://hanzhe93.github.io/post/greater-huan-ying-lai-dao-wo-de-xiao-zhan-ya-hen-gao-xing-yu-jian-ni/">
+        <title type="html"><![CDATA[Welcome to my website!]]></title>
+        <id>https://hanzhe93.github.io/post/post/</id>
+        <link href="https://hanzhe93.github.io/post/post/">
         </link>
         <updated>2021-12-02T16:25:07.000Z</updated>
         <content type="html"><![CDATA[<h2 id="关于本站">🏠 关于本站</h2>
