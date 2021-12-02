@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Zhe Han</title>
+<title>&gt; 欢迎来到我的小站呀，很高兴遇见你！🤝 | Zhe Han</title>
 <meta name="description" content="This is my personal website.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://hanzhe93.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://hanzhe93.github.io">Zhe Han</a></h3>
@@ -76,36 +83,39 @@
   </div>
 </nav>
 
-    
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>&gt; 欢迎来到我的小站呀，很高兴遇见你！🤝</h1>
+            <p class="article-meta">
+              2021-12-03
+              
+            </p>
+            
+            <div class="post-content">
+              <h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
           
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
-            
-              <h3 class="year" data-aos-delay="500">2021</h3>
-              
-                
-                  <article class="post">
-                    <a href="https://hanzhe93.github.io/post/greater-huan-ying-lai-dao-wo-de-xiao-zhan-ya-hen-gao-xing-yu-jian-ni/">
-                      <h4 class="post-title">
-                        &gt; 欢迎来到我的小站呀，很高兴遇见你！🤝
-                      </h4>
-                    </a>
-                  </article>
-                
-              
-            
-          </div>
-        </div>
-        <div class="row flex-edges">
-  
-  
-</div>
-
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://hanzhe93.github.io/images/avatar.png?v=1638462361939" class="no-responsive avatar">
@@ -164,6 +174,8 @@
 </div>
 
 
+    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
@@ -173,6 +185,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '94d9c2b52d82faecf0f5',
+        clientSecret: 'fa24c534dc4541fef53cb5bb03ad4ffcc6b0c5b5',
+        repo: 'hanzhe93.github.io',
+        owner: 'hanzhe93',
+        admin: ['hanzhe93'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
