@@ -4,157 +4,115 @@
     <meta charset="utf-8" >
 
 <title>标签列表 | Zhe Han</title>
-<meta name="description" content="This is my personal website.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://hanzhe93.github.io/favicon.ico?v=1638464035704">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://hanzhe93.github.io/favicon.ico?v=1638465038306">
 <link rel="stylesheet" href="https://hanzhe93.github.io/styles/main.css">
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="This is my personal website.">
   </head>
   <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://hanzhe93.github.io">Zhe Han</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                Homepage
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                Archive
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                Tag
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                Discussion
-              </a>
-            
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
+    <div id="app" class="main">
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="row tags-container">
-            
-              <a href="https://hanzhe93.github.io/tag/yRlS2Zc2c/" class="badge secondary">
-                New
-              </a>
-            
-          </div>
-        </div>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://hanzhe93.github.io">
+        <img src="https://hanzhe93.github.io/images/avatar.png?v=1638465038306" class="site-logo">
+        <h1 class="site-title">Zhe Han</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://hanzhe93.github.io/images/avatar.png?v=1638464035704" class="no-responsive avatar">
-    <div class="text-muted">This is my personal website.</div>
-    <div class="social-container">
+    </div>
+    <div>
       
         
-          <a href="https://github.com/hanzhe93" target="_blank">
-            <i class="fab fa-github"></i>
+          <a href="/" class="site-nav">
+            Homepage
           </a>
         
       
         
-      
+          <a href="/archives" class="site-nav">
+            Archive
+          </a>
         
       
         
+          <a href="/tags" class="site-nav">
+            Tag
+          </a>
+        
       
+        
+          <a href="/post/about" class="site-nav">
+            Discussion
+          </a>
         
       
     </div>
   </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://hanzhe93.github.io/post/post/">Welcome to my website!</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <a href="https://hanzhe93.github.io/tag/yRlS2Zc2c/" class="badge success">
-          New
-        </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
     </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hanzhe93.github.io/atom.xml" target="_blank">RSS</a>
+    <div class="site-description">
+      This is my personal website.
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hanzhe93.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
-  
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="tags-container">
+            
+              <a class="tag" href="https://hanzhe93.github.io/tag/UQNmq2qfw/">Welcome</a>
+            
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-02T16:54:05.588Z</updated>
+    <updated>2021-12-02T17:10:41.590Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -16,10 +16,10 @@
         <link href="https://hanzhe93.github.io/post/post/">
         </link>
         <updated>2021-12-02T16:25:07.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+        <content type="html"><![CDATA[<h2 id="introduction">🏠 Introduction</h2>
+<h2 id="blogger">👨‍💻 Blogger</h2>
+<h2 id="interesting-fields">⛹ Interesting Fields</h2>
+<h2 id="contact">📬 Contact</h2>
 ]]></content>
     </entry>
 </feed>
