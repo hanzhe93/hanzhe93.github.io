@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-02T17:13:44.895Z</updated>
+    <updated>2021-12-03T04:47:28.939Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
-    <subtitle>This is my personal website.</subtitle>
+    <subtitle>This is my personal website. I am a PhD candidate (4 years contract) in Computational Mechanics Group, Department of Applied Mechanics, Faculty of Civil Engineering and Geoscience, TU Delft.</subtitle>
     <logo>https://hanzhe93.github.io/images/avatar.png</logo>
     <icon>https://hanzhe93.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zhe Han</rights>
