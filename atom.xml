@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-12T17:44:09.461Z</updated>
+    <updated>2021-12-12T17:44:50.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -39,7 +39,7 @@
         <updated>2021-12-02T16:25:07.000Z</updated>
         <content type="html"><![CDATA[<h2 id="introduction">🏠 Introduction</h2>
 <ul>
-<li>1This website is <strong>ONLY</strong> used for technology sharing.</li>
+<li>This website is <strong>ONLY</strong> used for technology sharing.</li>
 <li>Contents are mainly about theory and computational mechanics and     programming technic skills.</li>
 </ul>
 <h2 id="blogger">👨‍💻 Blogger</h2>
