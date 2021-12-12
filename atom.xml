@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-03T05:10:25.713Z</updated>
+    <updated>2021-12-12T16:44:07.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -11,15 +11,51 @@
     <icon>https://hanzhe93.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zhe Han</rights>
     <entry>
+        <title type="html"><![CDATA[Master Projects Outline ]]></title>
+        <id>https://hanzhe93.github.io/post/projects-outline/</id>
+        <link href="https://hanzhe93.github.io/post/projects-outline/">
+        </link>
+        <updated>2021-12-12T13:06:21.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="i-study-on-the-oxidation-and-mechanical-properties-of-needle-punched-carboncarbon-composites-with-multi-scale-coupling-method-national-natural-science-foundation-of-china">I. Study on the oxidation and mechanical properties of needle punched carbon/carbon composites with multi-scale coupling method (National Natural Science Foundation of China)</h3>
+<p><img src="https://hanzhe93.github.io/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=7djZDbHBDoQ" title="Horizontal Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639323702766.png" alt="horizontal fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=iHr20mfsYu4" title="Oblique Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324011046.png" alt="oblique fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Oblique Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=FPfBuEDBo3A" title="Vertical Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639324798469.png" alt="Vertical Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=zkTgihgfgaw" title="Horizontal Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325167940.png" alt="Horizontal Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=rzZY-S4ngzA" title="Curved Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325236332.png" alt="Curved Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Curved Fiber Bundle Video</font></center></b></p>
+<h3 id="ii-stress-analysis-of-pterional-maxillary-implant-design-in-the-fixation-and-repair-of-edentulous-maxilla">II. Stress analysis of pterional maxillary implant design in the fixation and repair of edentulous maxilla</h3>
+<p><img src="https://hanzhe93.github.io/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome to my website!]]></title>
         <id>https://hanzhe93.github.io/post/post/</id>
         <link href="https://hanzhe93.github.io/post/post/">
         </link>
         <updated>2021-12-02T16:25:07.000Z</updated>
         <content type="html"><![CDATA[<h2 id="introduction">🏠 Introduction</h2>
+<ul>
+<li>This website is <strong>ONLY</strong> used for technology sharing.</li>
+<li>Contents are mainly about theory and computational mechanics and     programming technic skills.</li>
+</ul>
 <h2 id="blogger">👨‍💻 Blogger</h2>
+<ul>
+<li>My name is <strong>Zhe Han</strong>. I am from <strong>China</strong>. Now I am a PhD candidate with 4 years contract in Computational Group, TU Delft.</li>
+<li>Before this, from 2012 to 2016, I used to be a undergraduate student ranking first in <strong>Civil Engineering</strong> department of <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong> and I got my <strong>Batchelor Degree</strong>.</li>
+<li>After that, during three years 2018-2021, I was a graduate student studied in <strong>Engineering Mechanics</strong> department of <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>. In my final year of this period, I was awarded <strong>Chinese National Scholarship</strong> and <strong>Outstanding Graduate Award</strong>, and then I obtained my <strong>Master Degree</strong>.</li>
+<li>My mater thesis is <em>Study on the Transient Oxidation of Needle Punched Carbon/Carbon Composites with Multiscale Coupling Method</em> supervised by <strong>Prof. Chuwei Zhou</strong> in Engineering Mechanics department, College of Aerospace Engineering, NUAA. This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.</li>
+</ul>
 <h2 id="interesting-fields">⛹ Interesting Fields</h2>
+<ul>
+<li>My research focuses on <strong>Solid Mechanics</strong> and  <strong>Computational Mechanics</strong> of <strong>Composite Materials</strong> with <strong>Multiscale Modeling Strategy</strong>.</li>
+<li>Besides those, I pay attention to the programming skills, though I am still a beginner on that.</li>
+</ul>
 <h2 id="contact">📬 Contact</h2>
+<ul>
+<li>If you like contents I shared with you, please follow my website. I will update some technical blogs.</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
