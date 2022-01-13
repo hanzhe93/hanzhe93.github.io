@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2021-12-12T17:44:50.256Z</updated>
+    <updated>2022-01-13T12:16:55.174Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
     <subtitle>This is my personal website. I am a PhD candidate (4 years contract) in Computational Mechanics Group, Section of Applied Mechanics, Department of Materials, Mechanics, Management &amp; Design, Faculty of Civil Engineering and Geosciences, TU Delft.</subtitle>
     <logo>https://hanzhe93.github.io/images/avatar.png</logo>
     <icon>https://hanzhe93.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Zhe Han</rights>
+    <rights>All rights reserved 2022, Zhe Han</rights>
     <entry>
         <title type="html"><![CDATA[Master Projects Outline ]]></title>
         <id>https://hanzhe93.github.io/post/projects-outline/</id>
@@ -40,12 +40,12 @@
         <content type="html"><![CDATA[<h2 id="introduction">🏠 Introduction</h2>
 <ul>
 <li>This website is <strong>ONLY</strong> used for technology sharing.</li>
-<li>Contents are mainly about theory and computational mechanics and     programming technic skills.</li>
+<li>Contents are mainly about theoretical and computational mechanics and     programming technical skills.</li>
 </ul>
 <h2 id="blogger">👨‍💻 Blogger</h2>
 <ul>
-<li>My name is <strong>Zhe Han</strong>. I am from <strong>China</strong>. Now I am a PhD candidate with 4 years contract in Computational Group, TU Delft.</li>
-<li>Before this, from 2012 to 2016, I used to be a undergraduate student ranking first in <strong>Civil Engineering</strong> department of <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong> and I got my <strong>Batchelor Degree</strong>.</li>
+<li>My name is <strong>Zhe Han</strong>. I am from <strong>China</strong>. Now I am a PhD candidate with 4 years contract in Computational Mechanics Group, TU Delft.</li>
+<li>Before this, from 2012 to 2016, I used to be a undergraduate student ranking first in <strong>Civil Engineering</strong> department of <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong> and I got my <strong>Bachelor Degree</strong>.</li>
 <li>After that, during three years 2018-2021, I was a graduate student studied in <strong>Engineering Mechanics</strong> department of <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>. In my final year of this period, I was awarded <strong>Chinese National Scholarship</strong> and <strong>Outstanding Graduate Award</strong>, and then I obtained my <strong>Master Degree</strong>.</li>
 <li>My mater thesis is <em>Study on the Transient Oxidation of Needle Punched Carbon/Carbon Composites with Multiscale Coupling Method</em> supervised by <strong>Prof. Chuwei Zhou</strong> in Engineering Mechanics department, College of Aerospace Engineering, NUAA. This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.</li>
 </ul>
