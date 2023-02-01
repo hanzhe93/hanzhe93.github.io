@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-01T20:48:01.471Z</updated>
+    <updated>2023-02-01T20:49:29.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -25,7 +25,7 @@
         <id>https://hanzhe93.github.io/post/research-project-in-tu-delft/</id>
         <link href="https://hanzhe93.github.io/post/research-project-in-tu-delft/">
         </link>
-        <updated>2023-01-28T07:44:31.000Z</updated>
+        <updated>2023-01-28T00:44:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="computational-micromechanical-model-for-tensile-failure-in-composites-with-fibre-pullout">Computational Micromechanical Model for Tensile Failure in Composites with Fibre-Pullout</h2>
 <h2 id="abstract">Abstract</h2>
 <p>This work was cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (<em>Faculty of Civil Engineering and Geosciences, TUD</em>) and Assisstant Professor <strong>Boyang Chen</strong> (<em>Faculty of Aerospace Engineering, TUD</em>). My research topic was to develop a Cohesive Element connecting the Beam element and Solid element (beam-solid CE), which can increase the computational efficiency due to less degrees of freedoms. Two main perspectives can make contributions to the motivation. On the one hand, normally in 3D space, the structural(beam) elements provide less degrees of freedoms. On the other hand, larger mesh size can be applied due to the higher order continuity of the structural element, leading to less degrees of freedoms as well. In accordance with the derivation of the beam-solid CE, the Finite Elment Method code was implemented by the open source [C++ library Jive] (https://dynaflow.com/software/jive/).</p>
