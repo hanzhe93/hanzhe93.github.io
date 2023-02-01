@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-01T19:20:29.716Z</updated>
+    <updated>2023-02-01T19:22:20.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://hanzhe93.github.io/post/digital-image-processing-project/</id>
         <link href="https://hanzhe93.github.io/post/digital-image-processing-project/">
         </link>
-        <updated>2023-01-30T03:03:34.000Z</updated>
+        <updated>2023-01-29T20:03:34.000Z</updated>
         <content type="html"><![CDATA[<h2 id="xct">XCT</h2>
 <h2 id="unet">Unet</h2>
 ]]></content>
@@ -25,7 +25,7 @@
         <id>https://hanzhe93.github.io/post/research-project-in-tu-delft/</id>
         <link href="https://hanzhe93.github.io/post/research-project-in-tu-delft/">
         </link>
-        <updated>2023-01-28T21:44:31.000Z</updated>
+        <updated>2023-01-28T14:44:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="computational-micromechanical-model-for-tensile-failure-in-composites-with-fibre-pullout">Computational Micromechanical Model for Tensile Failure in Composites with Fibre-Pullout</h2>
 <h2 id="abstract">Abstract</h2>
 <p>My research topic is to cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (Faculty of Civil Engineering and Geosciences) and Assisstant Professor <strong>Boyang Chen</strong> (Faculty of Aerospace Engineering). This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.</p>
