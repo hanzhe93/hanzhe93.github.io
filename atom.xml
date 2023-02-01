@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-01T19:28:10.789Z</updated>
+    <updated>2023-02-01T20:43:40.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -25,10 +25,11 @@
         <id>https://hanzhe93.github.io/post/research-project-in-tu-delft/</id>
         <link href="https://hanzhe93.github.io/post/research-project-in-tu-delft/">
         </link>
-        <updated>2023-01-28T14:44:31.000Z</updated>
+        <updated>2023-01-28T07:44:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="computational-micromechanical-model-for-tensile-failure-in-composites-with-fibre-pullout">Computational Micromechanical Model for Tensile Failure in Composites with Fibre-Pullout</h2>
 <h2 id="abstract">Abstract</h2>
-<p>My research topic is to cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (Faculty of Civil Engineering and Geosciences) and Assisstant Professor <strong>Boyang Chen</strong> (Faculty of Aerospace Engineering). This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.</p>
+<p>This work was cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (<em>Faculty of Civil Engineering and Geosciences, TUD</em>) and Assisstant Professor <strong>Boyang Chen</strong> (<em>Faculty of Aerospace Engineering, TUD</em>). My research topic was to develop a Cohesive Element connecting the Beam element and Solid element (beam-solid CE), which can increase the computational efficiency due to less degrees of freedoms. Two main perspectives can make contributions to the motivation. On the one hand, normally in 3D space, the structural(beam) elements provide less degrees of freedoms. On the other hand, larger mesh size can be applied due to the higher order continuity of the structural element, leading to less degrees of freedoms as well. In accordance with the derivation of the beam-solid CE, the Finite Elment Method code was implemented by the open source [C++ library Jive] (https://dynaflow.com/software/jive/).</p>
+<p>This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.</p>
 <h3 id="i-study-on-the-oxidation-and-mechanical-properties-of-needle-punched-carboncarbon-composites-with-multi-scale-coupling-method-national-natural-science-foundation-of-china">I. Study on the oxidation and mechanical properties of needle punched carbon/carbon composites with multi-scale coupling method (National Natural Science Foundation of China)</h3>
 <p><img src="https://hanzhe93.github.io/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
 <a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
