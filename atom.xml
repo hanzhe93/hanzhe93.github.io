@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-02T00:51:54.497Z</updated>
+    <updated>2023-02-02T00:54:32.750Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://hanzhe93.github.io"/>
+    <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
     <subtitle>This is my personal website. I am a researcher in Computational Mechanics Group, Section of Applied Mechanics, Department of Materials, Mechanics, Management &amp; Design, Faculty of Civil Engineering and Geosciences, TU Delft.</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://hanzhe93.github.io/images/avatar.png</logo>
+    <icon>https://hanzhe93.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, Zhe Han</rights>
     <entry>
         <title type="html"><![CDATA[Research Project in TU Delft]]></title>
-        <id>http://localhost:4000/post/research-project-in-tu-delft/</id>
-        <link href="http://localhost:4000/post/research-project-in-tu-delft/">
+        <id>https://hanzhe93.github.io/post/research-project-in-tu-delft/</id>
+        <link href="https://hanzhe93.github.io/post/research-project-in-tu-delft/">
         </link>
         <updated>2023-01-25T02:44:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="computational-micromechanical-model-for-tensile-failure-in-composites-with-fibre-pullout">Computational Micromechanical Model for Tensile Failure in Composites with Fibre-Pullout</h2>
 <h2 id="abstract">Abstract</h2>
 <p>This work was cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (<em>Faculty of Civil Engineering and Geosciences, TUD</em>) and Assisstant Professor <strong>Boyang Chen</strong> (<em>Faculty of Aerospace Engineering, TUD</em>). My research topic was to develop a Cohesive Element connecting the Beam element and Solid element (beam-solid CE), which can increase the computational efficiency due to less degrees of freedoms. Two main perspectives can make contributions to the motivation. On the one hand, normally in 3D space, the structural(beam) elements provide less degrees of freedoms. On the other hand, larger mesh size can be applied due to the higher order continuity of the structural element, leading to less degrees of freedoms as well. In accordance with the derivation of the beam-solid CE, the Finite Elment Method code was implemented by the open source <a href="https://dynaflow.com/software/jive/">C++ library Jive</a>. To verify the validity of the beam-solid CE, numerical results were compared with analytical benchmark solutions of the existing literature with respect to Double Cantilever Beam(DCB), End-Notch Flexure(ENF) and Mixed-Mode Bending(MMB) tests.</p>
 <h3 id="i-dcb-test">I. DCB test</h3>
-<p><img src="http://localhost:4000/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="http://localhost:4000/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=7djZDbHBDoQ" title="Horizontal Fiber Video"><img src="http://localhost:4000/post-images/1639323702766.png" alt="horizontal fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=iHr20mfsYu4" title="Oblique Fiber Video"><img src="http://localhost:4000/post-images/1639324011046.png" alt="oblique fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Oblique Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=FPfBuEDBo3A" title="Vertical Fiber Bundle"><img src="http://localhost:4000/post-images/1639324798469.png" alt="Vertical Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Bundle Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=zkTgihgfgaw" title="Horizontal Fiber Bundle"><img src="http://localhost:4000/post-images/1639325167940.png" alt="Horizontal Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Bundle Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=rzZY-S4ngzA" title="Curved Fiber Bundle"><img src="http://localhost:4000/post-images/1639325236332.png" alt="Curved Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Curved Fiber Bundle Video</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=7djZDbHBDoQ" title="Horizontal Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639323702766.png" alt="horizontal fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=iHr20mfsYu4" title="Oblique Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324011046.png" alt="oblique fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Oblique Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=FPfBuEDBo3A" title="Vertical Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639324798469.png" alt="Vertical Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=zkTgihgfgaw" title="Horizontal Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325167940.png" alt="Horizontal Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=rzZY-S4ngzA" title="Curved Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325236332.png" alt="Curved Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Curved Fiber Bundle Video</font></center></b></p>
 <h3 id="ii-enf-test">II. ENF test</h3>
-<p><img src="http://localhost:4000/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
-<img src="http://localhost:4000/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
 <h3 id="iii-mmb-test">III. MMB test</h3>
-<p><img src="http://localhost:4000/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
-<img src="http://localhost:4000/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Cloud Image of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Digital Image Processing & NDT Project]]></title>
-        <id>http://localhost:4000/post/digital-image-processing-project/</id>
-        <link href="http://localhost:4000/post/digital-image-processing-project/">
+        <id>https://hanzhe93.github.io/post/digital-image-processing-project/</id>
+        <link href="https://hanzhe93.github.io/post/digital-image-processing-project/">
         </link>
         <updated>2021-10-26T06:03:34.000Z</updated>
         <content type="html"><![CDATA[<h2 id="xct">XCT</h2>
-<p><img src="http://localhost:4000/post-images/1675294937693.gif" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675294937693.gif" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
 <h2 id="unet">Unet</h2>
-<p><img src="http://localhost:4000/post-images/1675294479453.gif" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675294479453.gif" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Master Projects Outline ]]></title>
-        <id>http://localhost:4000/post/projects-outline/</id>
-        <link href="http://localhost:4000/post/projects-outline/">
+        <id>https://hanzhe93.github.io/post/projects-outline/</id>
+        <link href="https://hanzhe93.github.io/post/projects-outline/">
         </link>
         <updated>2021-05-06T23:06:21.000Z</updated>
         <content type="html"><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>My master thesis is <em>Study on the Transient Oxidation of Needle Punched Carbon/Carbon Composites with Multiscale Coupling Method</em> supervised by <strong>Prof. C.W. Zhou</strong> in Engineering Mechanics department, College of Aerospace Engineering, NUAA. This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.<br>
-<img src="http://localhost:4000/post-images/1675298772701.jpg" alt="" loading="lazy"><br>
-<img src="http://localhost:4000/post-images/1675298781967.jpg" alt="SEM Image of Oxidation Surface for NP C/C Composites" title="SEM Image of Oxidation Surface for NP C/C Composites" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >SEM Image of Oxidation Surface for NP C/C Composites</font></center></b></p>
+<img src="https://hanzhe93.github.io/post-images/1675298772701.jpg" alt="" loading="lazy"><br>
+<img src="https://hanzhe93.github.io/post-images/1675298781967.jpg" alt="SEM Image of Oxidation Surface for NP C/C Composites" title="SEM Image of Oxidation Surface for NP C/C Composites" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >SEM Image of Oxidation Surface for NP C/C Composites</font></center></b></p>
 <h3 id="i-study-on-the-oxidation-and-mechanical-properties-of-needle-punched-carboncarbon-composites-with-multi-scale-coupling-method-national-natural-science-foundation-of-china">I. Study on the oxidation and mechanical properties of needle punched carbon/carbon composites with multi-scale coupling method (National Natural Science Foundation of China)</h3>
-<p><img src="http://localhost:4000/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="http://localhost:4000/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=7djZDbHBDoQ" title="Horizontal Fiber Video"><img src="http://localhost:4000/post-images/1639323702766.png" alt="horizontal fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=iHr20mfsYu4" title="Oblique Fiber Video"><img src="http://localhost:4000/post-images/1639324011046.png" alt="oblique fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Oblique Fiber Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=FPfBuEDBo3A" title="Vertical Fiber Bundle"><img src="http://localhost:4000/post-images/1639324798469.png" alt="Vertical Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Bundle Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=zkTgihgfgaw" title="Horizontal Fiber Bundle"><img src="http://localhost:4000/post-images/1639325167940.png" alt="Horizontal Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Bundle Video</font></center></b><br>
-<a href="https://www.youtube.com/watch?v=rzZY-S4ngzA" title="Curved Fiber Bundle"><img src="http://localhost:4000/post-images/1639325236332.png" alt="Curved Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Curved Fiber Bundle Video</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=7djZDbHBDoQ" title="Horizontal Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639323702766.png" alt="horizontal fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=iHr20mfsYu4" title="Oblique Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324011046.png" alt="oblique fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Oblique Fiber Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=FPfBuEDBo3A" title="Vertical Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639324798469.png" alt="Vertical Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=zkTgihgfgaw" title="Horizontal Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325167940.png" alt="Horizontal Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Horizontal Fiber Bundle Video</font></center></b><br>
+<a href="https://www.youtube.com/watch?v=rzZY-S4ngzA" title="Curved Fiber Bundle"><img src="https://hanzhe93.github.io/post-images/1639325236332.png" alt="Curved Fiber Bundle" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Curved Fiber Bundle Video</font></center></b></p>
 <h3 id="ii-stress-analysis-of-pterional-maxillary-implant-design-in-the-fixation-and-repair-of-edentulous-maxilla">II. Stress analysis of pterional maxillary implant design in the fixation and repair of edentulous maxilla</h3>
-<p><img src="http://localhost:4000/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
-<img src="http://localhost:4000/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1639325610092.png" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1639326074064.png" alt="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" title="Cloud Image of Maximum Stress Distribution on Skull Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Skull Tissue Surface</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome to my website!]]></title>
-        <id>http://localhost:4000/post/post/</id>
-        <link href="http://localhost:4000/post/post/">
+        <id>https://hanzhe93.github.io/post/post/</id>
+        <link href="https://hanzhe93.github.io/post/post/">
         </link>
         <updated>2021-04-30T03:25:07.000Z</updated>
         <content type="html"><![CDATA[<h2 id="introduction">🏠 Introduction</h2>
