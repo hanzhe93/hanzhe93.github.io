@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-03T11:45:05.097Z</updated>
+    <updated>2023-02-03T11:51:21.216Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -49,11 +49,11 @@
         <id>https://hanzhe93.github.io/post/projects-outline/</id>
         <link href="https://hanzhe93.github.io/post/projects-outline/">
         </link>
-        <updated>2021-05-06T11:06:21.000Z</updated>
+        <updated>2021-05-06T05:06:21.000Z</updated>
         <content type="html"><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>My master thesis is <em>Study on the Transient Oxidation of Needle Punched Carbon/Carbon Composites with Multiscale Coupling Method</em> supervised by <strong>Prof. C.W. Zhou</strong> in Engineering Mechanics department, College of Aerospace Engineering, NUAA. This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.<br>
-<img src="https://hanzhe93.github.io/post-images/1675298772701.jpg" alt="" loading="lazy"><br>
-<img src="https://hanzhe93.github.io/post-images/1675298781967.jpg" alt="SEM Image of Oxidation Surface for NP C/C Composites" title="SEM Image of Oxidation Surface for NP C/C Composites" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >SEM Image of Oxidation Surface for NP C/C Composites</font></center></b></p>
+<img src="https://hanzhe93.github.io/post-images/1675298772701.jpg#w50" alt="" loading="lazy"><br>
+<img src="https://hanzhe93.github.io/post-images/1675298781967.jpg#w50" alt="SEM Image of Oxidation Surface for NP C/C Composites" title="SEM Image of Oxidation Surface for NP C/C Composites" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >SEM Image of Oxidation Surface for NP C/C Composites</font></center></b></p>
 <h3 id="i-study-on-the-oxidation-and-mechanical-properties-of-needle-punched-carboncarbon-composites-with-multi-scale-coupling-method-national-natural-science-foundation-of-china">I. Study on the oxidation and mechanical properties of needle punched carbon/carbon composites with multi-scale coupling method (National Natural Science Foundation of China)</h3>
 <p><img src="https://hanzhe93.github.io/post-images/1639324528673.png" alt="3D reconstruction of NP C/C composite Micro-CT images" title="3D Reconstruction of NP C/C Composite Micro-CT Image" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >3D Reconstruction of NP C/C Composite Micro-CT Image</font></center></b><br>
 <a href="https://www.youtube.com/watch?v=6iTERtcqKRM" title="Vertical Fiber Video"><img src="https://hanzhe93.github.io/post-images/1639324916842.png" alt="vertical fiber" loading="lazy"></a><b><center><font face="Times New Roman" size=4 color=gray >Vertical Fiber Video</font></center></b><br>
