@@ -764,3 +764,9 @@ img[src*="#w50"] {
   height: auto;
   margin: auto;
 }
+img[src*="#w80"] {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
