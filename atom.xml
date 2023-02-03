@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-03T16:20:50.157Z</updated>
+    <updated>2023-02-03T23:37:15.796Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -38,15 +38,24 @@
         <id>https://hanzhe93.github.io/post/digital-image-processing-project/</id>
         <link href="https://hanzhe93.github.io/post/digital-image-processing-project/">
         </link>
-        <updated>2021-10-26T00:03:34.000Z</updated>
+        <updated>2021-10-20T18:03:34.000Z</updated>
         <content type="html"><![CDATA[<h2 id="xct">XCT</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675294937693.gif" alt="Cloud Image of Maximum Stress Distribution on Bone Tissue Surface" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675463343842.png" alt="Raw XCT picture of a metal sample" title="Raw XCT picture of a metal sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Raw XCT picture of a metal sample (local area)</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675463352319.png" alt="Super Resolution Result" title="Super Resolution Result" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Super Resolution (SR) Result (local area)</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675465018316.png" alt="Threshold result based on SR technique" title="Threshold result based on SR technique" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result based on SR technique (local area)</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675463376430.png" alt="Raw XCT picture of a metal sample" title="Raw XCT picture of a metal sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Raw XCT picture of a metal sample</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675463391477.png" alt="Super Resolution Result" title="Super Resolution Result" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Super Resolution (SR) Result</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675463397700.png" alt="Threshold result based on SR technique" title="Threshold result based on SR technique" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result based on SR technique</font></center></b></p>
 <h2 id="unet">Unet</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675436081940.jpg" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675436098900.jpg" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675436081940.jpg" alt="Picture of cracks on a carbon steel sample" title="Picture of cracks on a carbon steel sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a carbon steel sample</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675436098900.jpg" alt="Threshold result by Unet" title="Threshold result by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675453862969.jpg" alt="Picture of cracks on a concrete wall" title="Picture of cracks on a concrete wall" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a concrete wall - case 1</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675453905635.jpg" alt="Threshold result by Unet" title="Threshold results by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet - case 1</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675454462829.jpg" alt="Picture of cracks on a concrete wall" title="Picture of cracks on a concrete wall" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a concrete wall - case 2</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675454221998.jpg" alt="Threshold result by Unet" title="Threshold result by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet</font></center></b></p>
 <h2 id="ndt">NDT</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675294479453.gif" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675435610975.gif" alt="" title="Contour plot of Maximum Stress Distribution on Bone Tissue Surface" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of Maximum Stress Distribution on Bone Tissue Surface</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675294479453.gif" alt="Simulation of the guided wave on a flat composite plate" title="Simulation of the guided wave on a flat composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of the simulation for the guided wave on a flat composite plate</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675435610975.gif" alt="Contour plot of the simulation for the guided wave on a curved composite plate" title="Contour plot of the simulation for the guided wave on a curved composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of the simulation for the guided wave on a curved composite plate</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
