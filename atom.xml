@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-03T11:38:28.381Z</updated>
+    <updated>2023-02-03T11:40:36.986Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -15,21 +15,21 @@
         <id>https://hanzhe93.github.io/post/research-project-in-tu-delft/</id>
         <link href="https://hanzhe93.github.io/post/research-project-in-tu-delft/">
         </link>
-        <updated>2023-01-08T04:44:31.000Z</updated>
+        <updated>2023-01-07T21:44:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="computational-micromechanical-model-for-tensile-failure-in-composites-with-fibre-pullout">Computational Micromechanical Model for Tensile Failure in Composites with Fibre-Pullout</h2>
 <h2 id="abstract">Abstract</h2>
 <p>This work was cooperated with Asscociate Professor <strong>Frans van der Meer</strong> (<em>Faculty of Civil Engineering and Geosciences, TU Delft</em>) and Assisstant Professor <strong>Boyang Chen</strong> (<em>Faculty of Aerospace Engineering, TU Delft</em>). My research topic was to develop a Cohesive Element connecting the Beam element and Solid element (beam-solid CE), which can increase the computational efficiency due to fewer degrees of freedom. Two main perspectives can make contributions to the motivation. On the one hand, normally in 3D space, the structural(beam) elements provide fewer degrees of freedom. On the other hand, larger mesh size can be applied due to the higher order continuity of the structural element, leading to fewer degrees of freedom as well. In accordance with the derivation of the beam-solid CE, the Finite Elment Method code was implemented by the open source <a href="https://dynaflow.com/software/jive/">C++ library Jive</a>. To verify the validity of the beam-solid CE, numerical results were compared with analytical benchmark solutions of the existing literature with respect to Double Cantilever Beam(DCB), End-Notch Flexure(ENF) and Mixed-Mode Bending(MMB) tests.<br>
 <img src="https://hanzhe93.github.io/post-images/1675385104476.png#w50" alt="Schematic of 3D Beam-Solid CE" title="Schematic of 3D Beam-Solid CE" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of 3D Beam-Solid CE</font></center></b></p>
-<p><img src="https://hanzhe93.github.io/post-images/1675385176122.png" alt="Schematic of 2D Beam-Solid CE" title="Schematic of 2D Beam-Solid CE" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of 2D Beam-Solid CE</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675385176122.png#w50" alt="Schematic of 2D Beam-Solid CE" title="Schematic of 2D Beam-Solid CE" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of 2D Beam-Solid CE</font></center></b></p>
 <h3 id="i-dcb-test">I. DCB test</h3>
-<p><img src="https://hanzhe93.github.io/post-images/1675383934078.png" alt="Schematic of boundary conditions for DCB test" title="Schematic of boundary conditions for DCB test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for DCB test</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675383939289.png" alt="Comparison of DCB results" title="Comparison of DCB results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of DCB results</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675383934078.png#w50" alt="Schematic of boundary conditions for DCB test" title="Schematic of boundary conditions for DCB test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for DCB test</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675383939289.png#w50" alt="Comparison of DCB results" title="Comparison of DCB results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of DCB results</font></center></b></p>
 <h3 id="ii-enf-test">II. ENF test</h3>
-<p><img src="https://hanzhe93.github.io/post-images/1675384082331.png" alt="Schematic of boundary conditions for ENF test" title="Schematic of boundary conditions for ENF test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for ENF test</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675384089142.png" alt="Comparison of ENF results" title="Comparison of ENF results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of ENF results</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675384082331.png#w50" alt="Schematic of boundary conditions for ENF test" title="Schematic of boundary conditions for ENF test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for ENF test</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675384089142.png#w50" alt="Comparison of ENF results" title="Comparison of ENF results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of ENF results</font></center></b></p>
 <h3 id="iii-mmb-test">III. MMB test</h3>
-<p><img src="https://hanzhe93.github.io/post-images/1675384422039.png" alt="Schematic of boundary conditions for MMB test" title="Schematic of boundary conditions for MMB test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for MMB test</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675384428863.png" alt="Comparison of MMB results" title="Comparison of MMB results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of MMB results</font></center></b></p>
+<p><img src="https://hanzhe93.github.io/post-images/1675384422039.png#w50" alt="Schematic of boundary conditions for MMB test" title="Schematic of boundary conditions for MMB test" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Schematic of boundary conditions for MMB test</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675384428863.png#w50" alt="Comparison of MMB results" title="Comparison of MMB results" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Comparison of MMB results</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
