@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hanzhe93.github.io</id>
     <title>Zhe Han</title>
-    <updated>2023-02-04T23:24:35.720Z</updated>
+    <updated>2023-02-04T23:50:34.446Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hanzhe93.github.io"/>
     <link rel="self" href="https://hanzhe93.github.io/atom.xml"/>
@@ -38,24 +38,28 @@
         <id>https://hanzhe93.github.io/post/digital-image-processing-project/</id>
         <link href="https://hanzhe93.github.io/post/digital-image-processing-project/">
         </link>
-        <updated>2021-10-20T06:03:34.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="xct">XCT</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675463343842.png" alt="Raw XCT picture of a metal sample" title="Raw XCT picture of a metal sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Raw XCT picture of a metal sample (local area)</font></center></b><br>
+        <updated>2021-10-19T06:03:34.000Z</updated>
+        <content type="html"><![CDATA[<p>The XCT and NDT projects were cooperated with the Assistant Professor <strong>Jing Rao</strong> (<em>UNSW</em>). Some achieved details can be checked out in the introduction of the project respectively.</p>
+<h2 id="xct">XCT</h2>
+<p>The target of this project was to denoise the XCT pictures. An existing reinforcement learning model BSRGAN was used to eliminate the noise in pictures. Then the threshold method was implemented by OpenCV to segment the damage regions in specimens. With this process, the damage area of specimens can be detected from the XCT data.<br>
+<img src="https://hanzhe93.github.io/post-images/1675463343842.png" alt="Raw XCT picture of a metal sample" title="Raw XCT picture of a metal sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Raw XCT picture of a metal sample (local area)</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675463352319.png" alt="Super Resolution Result" title="Super Resolution Result" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Super Resolution (SR) Result (local area)</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675465018316.png" alt="Threshold result based on SR technique" title="Threshold result based on SR technique" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result based on SR technique (local area)</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675463376430.png" alt="Raw XCT picture of a metal sample" title="Raw XCT picture of a metal sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Raw XCT picture of a metal sample</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675463391477.png" alt="Super Resolution Result" title="Super Resolution Result" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Super Resolution (SR) Result</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675463397700.png" alt="Threshold result based on SR technique" title="Threshold result based on SR technique" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result based on SR technique</font></center></b></p>
 <h2 id="unet">Unet</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675436081940.jpg" alt="Picture of cracks on a carbon steel sample" title="Picture of cracks on a carbon steel sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a carbon steel sample</font></center></b><br>
+<p>In this project, a data library of labels in pictures was made using the labelme tool. The deep learning model Unet was trained with the existing data library. The model was tested by pictures including cracks.<br>
+<img src="https://hanzhe93.github.io/post-images/1675436081940.jpg" alt="Picture of cracks on a carbon steel sample" title="Picture of cracks on a carbon steel sample" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a carbon steel sample</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675436098900.jpg" alt="Threshold result by Unet" title="Threshold result by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675453862969.jpg" alt="Picture of cracks on a concrete wall" title="Picture of cracks on a concrete wall" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a concrete wall - case 1</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675453905635.jpg" alt="Threshold result by Unet" title="Threshold results by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet - case 1</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675454462829.jpg" alt="Picture of cracks on a concrete wall" title="Picture of cracks on a concrete wall" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Picture of cracks on a concrete wall - case 2</font></center></b><br>
 <img src="https://hanzhe93.github.io/post-images/1675454221998.jpg" alt="Threshold result by Unet" title="Threshold result by Unet" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Threshold result by Unet - case 2</font></center></b></p>
 <h2 id="ndt">NDT</h2>
-<p><img src="https://hanzhe93.github.io/post-images/1675294479453.gif" alt="Simulation of the guided wave on a flat composite plate" title="Simulation of the guided wave on a flat composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of the simulation for the guided wave on a flat composite plate</font></center></b><br>
-<img src="https://hanzhe93.github.io/post-images/1675435610975.gif" alt="Contour plot of the simulation for the guided wave on a curved composite plate" title="Contour plot of the simulation for the guided wave on a curved composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Contour plot of the simulation for the guided wave on a curved composite plate</font></center></b></p>
+<p>For this topic, some numerical simulations about guided wave propagating on composite plates are shown in the following.<br>
+<img src="https://hanzhe93.github.io/post-images/1675294479453.gif" alt="Simulation of the guided wave on a flat composite plate" title="Simulation of the guided wave on a flat composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Simulation contour plot of the guided wave on a flat composite plate</font></center></b><br>
+<img src="https://hanzhe93.github.io/post-images/1675435610975.gif" alt="Contour plot of the simulation for the guided wave on a curved composite plate" title="Contour plot of the simulation for the guided wave on a curved composite plate" loading="lazy"><b><center><font face="Times New Roman" size=4 color=gray >Simulation contour plot of the guided wave on a curved composite plate</font></center></b></p>
 ]]></content>
     </entry>
     <entry>
@@ -63,7 +67,7 @@
         <id>https://hanzhe93.github.io/post/projects-outline/</id>
         <link href="https://hanzhe93.github.io/post/projects-outline/">
         </link>
-        <updated>2021-05-01T17:06:21.000Z</updated>
+        <updated>2021-05-01T11:06:21.000Z</updated>
         <content type="html"><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>My master thesis is <em>Study on the Transient Oxidation of Needle Punched Carbon/Carbon Composites with Multiscale Coupling Method</em> supervised by <strong>Prof. C.W. Zhou</strong> in Engineering Mechanics department, College of Aerospace Engineering, NUAA. This thesis explored the transient oxidation behaviors of carbon/carbon composites at various scales and their coupling model with the multiscale method.<br>
 <img src="https://hanzhe93.github.io/post-images/1675298772701.jpg#w50" alt="" loading="lazy"><br>
